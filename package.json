@@ -28,5 +28,6 @@
   "homepage": "https://github.com/beyondjam/prettier-config#readme",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "prettier": "index.js"
 }
