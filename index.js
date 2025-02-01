@@ -11,5 +11,5 @@ const config = {
   endOfLine: 'lf',
   plugins: ['prettier-plugin-organize-imports'],
 }
-
 export default config
+
