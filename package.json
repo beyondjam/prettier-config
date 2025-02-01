@@ -1,0 +1,32 @@
+{
+  "name": "@beyondjam/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier configuration with organized imports support",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "code-formatting",
+    "organize-imports"
+  ],
+  "author": "Serhii Bondarenko seregabondarenko@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beyondjam/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beyondjam/prettier-config/issues"
+  },
+  "homepage": "https://github.com/beyondjam/prettier-config#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
