@@ -4,11 +4,17 @@ Shared Prettier configuration with organized imports support.
 
 ## Installation
 
-
 Using pnpm (recommended)
 ```bash
 pnpm add -D @beyondjam/prettier-config
 ```
+
+> **Note for pnpm users**: Create or update `.npmrc` in your project root with:
+> ```
+> public-hoist-pattern[]=*prettier*
+> ```
+> This ensures Prettier plugins are properly hoisted and can be found by Prettier.
+
 Using npm
 
 ```bash
@@ -19,6 +25,8 @@ Using yarn
 ```bash
 yarn add -D @beyondjam/prettier-config
 ```
+
+> **Note**: Prettier and prettier-plugin-organize-imports are included as dependencies and will be installed automatically.
 
 ## Usage
 

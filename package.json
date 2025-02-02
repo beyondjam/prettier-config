@@ -1,6 +1,6 @@
 {
   "name": "@beyondjam/prettier-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shared Prettier configuration with organized imports support",
   "type": "module",
   "main": "./index.cjs",
@@ -29,9 +29,6 @@
   "dependencies": {
     "prettier": "^3.4.2",
     "prettier-plugin-organize-imports": "^4.1.0"
-  },
-  "peerDependencies": {
-    "prettier": ">=3.0.0"
   },
   "publishConfig": {
     "access": "public"
