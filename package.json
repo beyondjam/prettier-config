@@ -1,9 +1,14 @@
 {
   "name": "@beyondjam/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared Prettier configuration with organized imports support",
   "type": "module",
-  "main": "index.js",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
   "prettier": "index.js",
   "author": "Serhii Bondarenko seregabondarenko@gmail.com",
   "license": "MIT",
